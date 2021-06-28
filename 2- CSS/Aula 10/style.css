@@ -1,0 +1,58 @@
+/*BACKGROUND*/
+/* background-image url --> serve para colocar um plano de fundo. 
+
+background-repeat: no-repeat --> serve para a imagem não ficar se repetindo e ficando do tamanho da tela.
+
+background-position --> serve para colocar a % de espaço deseja do seu background. ex: (100% E, 10% TOPO), mas pode se usar tambem para centralizar a imagem com background-position: center center; ou background-position: right center;
+
+background-size: cover --> serve para cobrir a tela toda.
+
+background-attachment: fixed --> o background fica fixo no fundo da tela, não vai se mover quando scrollar a tela. */
+
+
+ /*BORDER*/
+/* border-width: 5px;
+   border-style: solid;
+   border-color: black; --> É A MESMA COISA QUE> border: 5px(width) solid(style) black(color); que é conhecida como shorthand.
+   
+   border-radius --> serve para alterar a borda. PS: 50% é uma borda circular. e também é possível alterar cade pedaço da borda --> border-radius: 50% 30 % 20% 80 %; vai dar um tipo de borda com um formato para cada canto.*/ 
+ 
+   /*MARGIN*/
+   /* margin --> serve para alterar a margem, dando um espaçamento externo, nesse caso estamos utilizando para definir a margem da nossa foto. No margin também existe um shorthand --> margin: 10px (ele serve para todos os lados da margem) */
+
+   /*PADDING*/
+   /* padding --> serve para alterar a margem, dando um espaçamento interno, nesse caso estamos utilizando para definir a margem interna da nossa foto. No padding também existe um shorthand --> padding: 10px (ele serve para todos os lados).*/
+
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.foto-principal {
+    width: 200px;
+   border: 2px solid #ffffff;
+   border-radius: 50%; 
+   margin: 30px;  
+   box-shadow: 0px 0px 10px #959595
+}
+
+h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}

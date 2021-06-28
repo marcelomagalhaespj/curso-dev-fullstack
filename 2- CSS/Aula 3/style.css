@@ -1,0 +1,26 @@
+/* background-image url --> serve para colocar um plano de fundo. 
+
+background-repeat: no-repeat --> serve para a imagem não ficar se repetindo e ficando do tamanho da tela.
+
+background-position --> serve para colocar a % de espaço deseja do seu background. ex: (100% E, 10% TOPO), mas pode se usar tambem para centralizar a imagem com background-position: center center; ou background-position: right center;
+
+background-size: cover --> serve para cobrir a tela toda.
+
+background-attachment: fixed --> o background fica fixo no fundo da tela, não vai se mover quando scrollar a tela. */
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+
+p {
+color: rgb(34, 34, 34);
+}
+
+.foto-principal {
+    width: 400px;
+}
